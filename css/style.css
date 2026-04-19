@@ -1603,6 +1603,7 @@ h1, h2, h3, h4, h5, h6,
 
 #colorlib-hero .flexslider .slides li {
   background-position: center center;
+  overflow: hidden;
 }
 
 .hero-overlay {
@@ -1615,7 +1616,7 @@ h1, h2, h3, h4, h5, h6,
 
 .hero-card {
   max-width: 760px;
-  padding: 40px 42px;
+  padding: 30px 34px;
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 32px;
   background: rgba(255, 249, 242, 0.72);
@@ -1624,15 +1625,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-  font-size: 68px;
+  font-size: 58px;
   line-height: 1.04;
-  margin-bottom: 22px;
+  margin-bottom: 16px;
 }
 
 #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
   font-size: 18px;
-  line-height: 1.8;
-  margin-bottom: 16px;
+  line-height: 1.7;
+  margin-bottom: 10px;
   color: #3c342d;
 }
 
@@ -1679,7 +1680,7 @@ h1, h2, h3, h4, h5, h6,
   display: flex;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 24px;
+  margin-top: 16px;
 }
 
 .metric-chip {
